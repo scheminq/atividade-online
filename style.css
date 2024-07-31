@@ -1,18 +1,21 @@
-body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Inicio da Header */
 header {
     background-color: #3F4F8A;
+    height: 100px;
 }
 header img {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
 }
 ul {
     display: flex;
@@ -24,9 +27,19 @@ a {
     color: white;
     text-decoration: none;
 }
+.icones-header img {
+    margin-left: 20px;
+}
+/* Fim da Header */
 main {
     background-color: #3F4F8A;
     color: white;
+}
+/* Inicio do body */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 section {
     display: flex;
@@ -39,3 +52,4 @@ section {
     width: 206px;
     height: 438px;
 }
+/* Fim do body */
